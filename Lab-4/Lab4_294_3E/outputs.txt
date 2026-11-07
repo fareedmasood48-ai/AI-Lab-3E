@@ -1,0 +1,16 @@
+A* supplied heuristic
+Path: ['S', 'A', 'C', 'G'] Cost: 6 Independent path sum: 6
+Processed: ['S', 'A', 'C', 'G']
+Expanded (goal excluded): ['S', 'A', 'C'] Count: 3
+Trace (node,g,h,f): [('S', 0, 5, 5), ('A', 1, 4, 5), ('C', 3, 2, 5), ('G', 6, 0, 6)]
+Consistency audit: True
+\nUCS (zero heuristic)
+Path: ['S', 'A', 'C', 'G'] Cost: 6 Independent path sum: 6
+Processed: ['S', 'A', 'C', 'B', 'G']
+Expanded (goal excluded): ['S', 'A', 'C', 'B'] Count: 4
+\nOverestimate h(C)=10
+Path: ['S', 'B', 'G'] Cost: 9 Independent path sum: 9
+Processed: ['S', 'A', 'B', 'G']
+Expanded (goal excluded): ['S', 'A', 'B'] Count: 3
+
+All Lab 4 checks passed (start=goal, unreachable, cycle, path-cost verification).
