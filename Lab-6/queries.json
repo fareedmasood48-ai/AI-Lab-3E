@@ -1,0 +1,62 @@
+[
+  {
+    "query": "What evidence is needed for an illness extension?",
+    "doc": "late",
+    "evidence": "Students who are ill may request an extension only when medical evidence is provided before the original deadline.",
+    "split": "dev"
+  },
+  {
+    "query": "How can I reset a forgotten login password?",
+    "doc": "password",
+    "evidence": "A forgotten password can be reset using the recovery link on the sign-in page.",
+    "split": "dev"
+  },
+  {
+    "query": "Where should I upload my assignment and in what format?",
+    "doc": "assignment",
+    "evidence": "Assignments must be uploaded through the learning portal. The final submission file must be in PDF format.",
+    "split": "dev"
+  },
+  {
+    "query": "Are contractors allowed to work remotely?",
+    "doc": "contractor",
+    "evidence": "Contractors may work remotely only when the signed contract explicitly permits remote work.",
+    "split": "dev"
+  },
+  {
+    "query": "What should I do if the printer produces blank pages?",
+    "doc": "printer",
+    "evidence": "For blank printer pages, first check the ink or toner level. Then run the printer cleaning utility and print a test page.",
+    "split": "test"
+  },
+  {
+    "query": "I cannot access my account; what is the recovery process?",
+    "doc": "password",
+    "evidence": "A forgotten password can be reset using the recovery link on the sign-in page.",
+    "split": "test"
+  },
+  {
+    "query": "How do I hand in coursework electronically?",
+    "doc": "assignment",
+    "evidence": "Assignments must be uploaded through the learning portal. The final submission file must be in PDF format.",
+    "split": "test"
+  },
+  {
+    "query": "What proof is required when illness affects a deadline?",
+    "doc": "late",
+    "evidence": "Students who are ill may request an extension only when medical evidence is provided before the original deadline.",
+    "split": "test"
+  },
+  {
+    "query": "What are tomorrow's flight prices?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  },
+  {
+    "query": "Who won the football match yesterday?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  }
+]
